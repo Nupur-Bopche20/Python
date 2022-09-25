@@ -1,0 +1,14 @@
+# create a dictionary 
+
+employees = {}
+n = int(input("Enter number of elemnts in dictionary : "))
+
+for i in range(n):
+    name = input("Enter employee's name: ")
+    salary = input("Enter employee's salary: ")
+
+    employees[name] = salary
+
+
+
+print(employees)
