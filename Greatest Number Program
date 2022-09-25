@@ -1,0 +1,12 @@
+from xml.dom.minidom import Element
+
+# Greatest Number Program
+list = []
+
+num = int(input("Enter the number of elements to find greatest among them: "))
+
+for i in range(1,num+1):
+    Element = int(input("Enter elements :"))
+    list.append(Element)
+
+print("The largest number is : ",max(list))
