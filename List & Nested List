@@ -1,0 +1,27 @@
+
+#Creating a list taking input from the user
+
+list = []
+
+n = int(input("Enter the number of element in the list: "))
+
+for i in range(0,n):
+    ele = int(input(f"Enter element{i+1} : " ))
+    list.append(ele)
+
+
+print(list)
+
+
+# creating nested list
+x=int(input("enter the size of list : "))
+y= int(input("enter the size of sublist : "))
+list1=[]
+sublist=[]
+print("Enter the numbers : ")
+for i in range(x):
+    for j in range(y):
+        sublist.append(input())
+    list1.append(sublist)
+    sublist=[]
+print (list1)
