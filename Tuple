@@ -1,0 +1,5 @@
+#Python Program to print tuple taking int from user
+
+input_tuple = input("Please enter some values in tuple seperated with comma:")
+tuple = tuple(input_tuple.split(","))
+print('tuple:',tuple)
